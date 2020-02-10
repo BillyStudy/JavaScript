@@ -8,3 +8,25 @@ function aula2() {
     
     alert(nome.value);
 }
+
+function aula3() {
+    var linkE = document.createElement('a');
+    linkE.setAttribute('href', 'https://www.google.com.br/');
+
+    var textE = document.createTextNode('Google');
+    linkE.appendChild(textE);
+
+    var containerElement = document.querySelector('#app');
+    containerElement.appendChild(textE);
+
+}
+
+
+function aula4() {
+    
+    var cor = document.querySelector('input[id=cor]').value; 
+    var bodyColor = document.querySelector('body');
+
+    bodyColor.style.backgroundColor = cor;
+    
+}
