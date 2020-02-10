@@ -1,0 +1,42 @@
+* {
+    color: #fafafa;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: indigo;
+    padding: 2% 10% 2% 10% ;
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins';
+
+}
+#toDo{
+    background-color: purple;
+    padding: 20px 10% 20px 10%;
+    border-radius: 3px;
+}
+input{
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    color: #222;
+    border-width: 0px;
+}
+
+button{
+    border-radius: 3px;
+    background-color: #222;
+    border-width: 0px;
+    padding: 5px 10px 5px 10px;
+}
+ul{
+    display: block;
+  list-style-type: decimal-leading-zero;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
